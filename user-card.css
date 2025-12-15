@@ -1,0 +1,98 @@
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    margin: 0px; padding: 0;
+    background-color: #f6f6f6;font-family: "Open Sans", sans-serif;
+    background-image: url("IMG/computer table.jpg");
+    border-radius: 15px;
+    background-size:cover;
+}
+.navbar-wrapper {
+    backdrop-filter: blur(5px);
+  padding: 1px 4px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  /* border:none; */
+}
+.brand > img {
+  border-radius: 10px;
+  margin-left:20px
+}
+
+.p1{
+  margin-right: 300px;
+  color:white;
+  gap:4px;
+}
+.link > ul {
+  list-style: none;
+}
+.link > ul > li {
+  display: inline;
+}
+.active {
+  background-color: #478d53;
+  color: white;
+
+}
+.link > ul > li > a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+  padding: 4px;
+}
+
+.link > ul > li > a:hover {
+  background-color: #c1c1c1e5;
+  color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 95vh;
+    border-radius: 100px;
+    justify-content: center;
+  }
+  .card-links{
+     padding: 16px;
+    border-radius: 18px;
+    backdrop-filter: blur(5px);
+    width: 60%;
+    height: 80%;
+  }
+  .card-profile{
+    magin-top:8px;
+    padding: 16px;
+    border-radius: 18px;
+    backdrop-filter: blur(5px);
+    width: 60%;
+    height: 70%;  
+    border:1px solid gray;
+  }
+  
+  .container > .card-profile > .profile-img > img { 
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  margin-top: 100px;
+   float:right;
+    margin-left: 5px;
+    margin-right: 155px;
+}
+.cta > button{
+  padding: 15px 30px;
+ background-color: #684944;
+ border-radius: 10px;
+ border: none;
+ color: #fff;
+}
+h1{
+  margin-top: 120px;
+}
+.cta > button:hover{
+  background-color: #999;
+  transition: ease 0.5;
+  color: #000;
+
+}
