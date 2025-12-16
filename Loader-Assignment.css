@@ -1,0 +1,23 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 95vh;
+    background-image: url("/WEB PAGES/MEDIA/assets,html/images/bg1.avif");
+    background-size: cover;
+}
+.Loader{
+
+    border: 10px solid #999;
+    border-radius: 50%;
+    border-top: 10px solid red;
+    margin-top: 40px;
+    width: 100px;
+    height:100px;
+    animation: spin  2s linear infinite;
+}
+@keyframes spin{
+    0%{ transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+    
+}
