@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="screen-value" readonly> <br>
+
+    <button class="operator" onclick="addDataToScreen('+')">+</button>
+    <button class="operator" onclick="addDataToScreen('-')">-</button>
+    <button class="operator" onclick="addDataToScreen('/')">/</button>
+    <button class="operator" onclick="addDataToScreen('*')">x</button> <br>
+
+    <button onclick="addDataToScreen('1')">1</button>
+    <button onclick="addDataToScreen('2')">2</button>
+    <button onclick="addDataToScreen('3')">3</button> <br>
+
+    <button onclick="addDataToScreen('4')">4</button>
+    <button onclick="addDataToScreen('5')">5</button>
+    <button onclick="addDataToScreen('6')">6</button> <br>
+
+    <button onclick="addDataToScreen('7')">7</button>
+    <button onclick="addDataToScreen('8')">8</button>
+    <button onclick="addDataToScreen('9')">9</button> <br>
+
+    <button onclick="addDataToScreen('0')">0</button>
+    <button class="clear" onclick="clearScreen()">C</button>
+    <button class="equal" onclick="calculate()">=</button> <br>
+
+
+    <!-- js -->
+     <script src="calculator.js"></script>
+
+  </div>
+</body>
+</html>
